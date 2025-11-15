@@ -1,6 +1,7 @@
 export interface StreamEvent {
   type: "text" | "tool_call" | "error" | "done";
   content: string;
+// fixme: improve this
   index?: number;
   metadata?: Record<string, unknown>;
 }
