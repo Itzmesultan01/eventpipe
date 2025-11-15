@@ -24,3 +24,4 @@ export interface ParsedChunk {
   finishReason?: string;
   toolCalls?: { name: string; arguments: string }[];
 }
+
