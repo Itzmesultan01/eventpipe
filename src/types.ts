@@ -5,6 +5,7 @@ export interface StreamEvent {
   index?: number;
   metadata?: Record<string, unknown>;
 }
+// cleanup: handle errors
 
 export type OnEvent = (event: StreamEvent) => void;
 export type OnToken = (token: string) => void;
