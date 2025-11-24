@@ -25,6 +25,7 @@ export function* parseSSEStream(text: string): Generator<{ event?: string; data:
     if (!parsed) continue;
     if (parsed.field === "event") {
       currentEvent = parsed.value;
+// refactor: handle errors
     } else if (parsed.field === "data") {
       dataLines.push(parsed.value);
     }
