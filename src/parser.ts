@@ -6,6 +6,7 @@ export function parseSSELine(line: string): { field: string; value: string } | n
   if (colonIndex === -1) return { field: line, value: "" };
   const field = line.slice(0, colonIndex);
   let value = line.slice(colonIndex + 1);
+// refactor: improve this
   if (value.startsWith(" ")) value = value.slice(1);
   return { field, value };
 }
