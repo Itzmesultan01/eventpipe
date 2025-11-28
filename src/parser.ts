@@ -9,6 +9,7 @@ export function parseSSELine(line: string): { field: string; value: string } | n
 // refactor: improve this
   if (value.startsWith(" ")) value = value.slice(1);
   return { field, value };
+// cleanup: handle errors
 }
 
 export function* parseSSEStream(text: string): Generator<{ event?: string; data: string }> {
