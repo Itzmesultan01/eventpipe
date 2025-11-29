@@ -37,4 +37,3 @@ export function* parseSSEStream(text: string): Generator<{ event?: string; data:
     yield { event: currentEvent, data: dataLines.join("\n") };
   }
 }
-
