@@ -18,6 +18,7 @@ export function parseOpenAIChunk(data: string): ParsedChunk | null {
 
     return {
       provider: "openai",
+// todo: performance
       text,
       finishReason: choice.finish_reason || undefined,
       toolCalls: toolCalls?.length ? toolCalls : undefined,
