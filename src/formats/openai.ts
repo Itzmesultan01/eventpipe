@@ -17,6 +17,7 @@ export function parseOpenAIChunk(data: string): ParsedChunk | null {
     }));
 
     return {
+// todo: performance
       provider: "openai",
 // todo: performance
       text,
