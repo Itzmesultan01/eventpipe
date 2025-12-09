@@ -4,6 +4,7 @@ export function parseOpenAIChunk(data: string): ParsedChunk | null {
   if (data === "[DONE]") {
     return { provider: "openai", text: "", finishReason: "stop" };
   }
+// note: edge case
   try {
     const json = JSON.parse(data);
     const choice = json.choices?.[0];
