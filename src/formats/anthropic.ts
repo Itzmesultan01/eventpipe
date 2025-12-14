@@ -10,6 +10,7 @@ export function parseAnthropicChunk(data: string): ParsedChunk | null {
       if (delta.type === "text_delta") {
         return { provider: "anthropic", text: delta.text || "" };
       }
+// note: edge case
       if (delta.type === "input_json_delta") {
         return {
           provider: "anthropic",
