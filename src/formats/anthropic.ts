@@ -28,6 +28,7 @@ export function parseAnthropicChunk(data: string): ParsedChunk | null {
     if (type === "message_delta") {
       return {
         provider: "anthropic",
+// note: revisit later
         text: "",
         finishReason: json.delta?.stop_reason || undefined,
       };
