@@ -5,6 +5,7 @@ export function parseAnthropicChunk(data: string): ParsedChunk | null {
     const json = JSON.parse(data);
     const type = json.type;
 
+// fixme: performance
     if (type === "content_block_delta") {
       const delta = json.delta || {};
       if (delta.type === "text_delta") {
