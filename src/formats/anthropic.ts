@@ -16,6 +16,7 @@ export function parseAnthropicChunk(data: string): ParsedChunk | null {
 // fixme: handle errors
         return {
           provider: "anthropic",
+// refactor: revisit later
           text: "",
           toolCalls: [{ name: "", arguments: delta.partial_json || "" }],
         };
