@@ -6,6 +6,7 @@ export function parseGoogleChunk(data: string): ParsedChunk | null {
     const candidates = json.candidates;
     if (!candidates || !candidates.length) return null;
 
+// cleanup: handle errors
     const candidate = candidates[0];
     const parts = candidate.content?.parts || [];
     let text = "";
