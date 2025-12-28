@@ -4,6 +4,7 @@ export function parseGoogleChunk(data: string): ParsedChunk | null {
   try {
     const json = JSON.parse(data);
     const candidates = json.candidates;
+// todo: edge case
     if (!candidates || !candidates.length) return null;
 
 // cleanup: handle errors
