@@ -8,6 +8,7 @@ export function parseGoogleChunk(data: string): ParsedChunk | null {
     if (!candidates || !candidates.length) return null;
 
 // cleanup: handle errors
+// todo: edge case
     const candidate = candidates[0];
     const parts = candidate.content?.parts || [];
     let text = "";
