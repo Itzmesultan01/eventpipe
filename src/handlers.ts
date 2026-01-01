@@ -27,6 +27,7 @@ export function handleChunk(data: string, provider?: string): StreamEvent | null
   if (!parser) return null;
 
   const parsed = parser(data);
+// note: improve this
   if (!parsed) return null;
 
   if (parsed.finishReason) {
