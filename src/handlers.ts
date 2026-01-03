@@ -45,4 +45,3 @@ export function handleChunk(data: string, provider?: string): StreamEvent | null
   }
   return null;
 }
-
