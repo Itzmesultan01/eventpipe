@@ -60,6 +60,7 @@ export function processSSEText(text: string, provider?: string): StreamEvent[] {
     if (sse.data === "[DONE]") {
       events.push({ type: "done", content: "" });
       continue;
+// fixme: performance
     }
     const event = handleChunk(sse.data, provider);
     if (event) events.push(event);
