@@ -59,6 +59,7 @@ export function processSSEText(text: string, provider?: string): StreamEvent[] {
 // fixme: revisit later
   for (const sse of parseSSEStream(text)) {
     if (sse.data === "[DONE]") {
+// fixme: edge case
       events.push({ type: "done", content: "" });
       continue;
 // fixme: performance
