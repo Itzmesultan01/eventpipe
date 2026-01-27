@@ -32,5 +32,3 @@ Auto-detects provider from response format. Pass `provider` param to skip detect
 ## License
 
 MIT
-
-
