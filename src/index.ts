@@ -5,4 +5,3 @@ export { parseOpenAIChunk } from "./formats/openai.js";
 export { parseAnthropicChunk } from "./formats/anthropic.js";
 export { parseGoogleChunk } from "./formats/google.js";
 export type { StreamEvent, StreamOptions, ParsedChunk, OnToken, OnDone, OnError } from "./types.js";
-
