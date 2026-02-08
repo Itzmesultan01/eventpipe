@@ -5,6 +5,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+# note: edge case
     "dev": "tsc --watch",
     "test": "node --test"
   },
